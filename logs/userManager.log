@@ -1,0 +1,90 @@
+2020-01-29 15:12:56.954 [http-nio-8888-exec-1] INFO  org.apache.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:422)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:683)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2020-01-29 20:09:04.528 [http-nio-8888-exec-6] INFO  com.course.controller.UserManager - 查询的结果是1
+2020-01-29 20:09:04.532 [http-nio-8888-exec-6] INFO  com.course.controller.UserManager - 查询的用户是：zhangsan
+2020-01-29 20:09:04.680 [http-nio-8888-exec-7] INFO  com.course.controller.UserManager - 查询的结果是0
+2020-01-29 20:09:04.744 [http-nio-8888-exec-8] INFO  com.course.controller.UserManager - cookies验证通过
+2020-01-29 20:09:04.864 [http-nio-8888-exec-8] INFO  com.course.controller.UserManager - 更新数据的条目数为:1
+2020-01-29 20:09:07.085 [http-nio-8888-exec-9] INFO  com.course.controller.UserManager - cookies验证通过
+2020-01-29 20:09:07.102 [http-nio-8888-exec-9] INFO  com.course.controller.UserManager - 添加用户的数量是：1
+2020-01-29 20:09:09.241 [http-nio-8888-exec-10] INFO  com.course.controller.UserManager - cookies验证通过
+2020-01-29 20:09:09.250 [http-nio-8888-exec-10] INFO  com.course.controller.UserManager - getUserInfo获取到的用户数量是1
+2020-01-29 20:09:11.349 [http-nio-8888-exec-2] INFO  com.course.controller.UserManager - cookies验证通过
+2020-01-29 20:09:11.356 [http-nio-8888-exec-2] INFO  com.course.controller.UserManager - 更新数据的条目数为:1
+2020-01-29 20:18:36.541 [http-nio-8888-exec-3] INFO  com.course.controller.UserManager - 查询的结果是1
+2020-01-29 20:18:36.541 [http-nio-8888-exec-3] INFO  com.course.controller.UserManager - 查询的用户是：zhangsan
+2020-01-29 20:18:36.660 [http-nio-8888-exec-5] INFO  com.course.controller.UserManager - 查询的结果是0
+2020-01-29 20:18:36.745 [http-nio-8888-exec-4] INFO  com.course.controller.UserManager - cookies验证通过
+2020-01-29 20:18:36.753 [http-nio-8888-exec-4] INFO  com.course.controller.UserManager - 更新数据的条目数为:1
+2020-01-29 20:18:38.853 [http-nio-8888-exec-6] INFO  com.course.controller.UserManager - cookies验证通过
+2020-01-29 20:18:38.859 [http-nio-8888-exec-6] INFO  com.course.controller.UserManager - 添加用户的数量是：1
+2020-01-29 20:18:40.967 [http-nio-8888-exec-7] INFO  com.course.controller.UserManager - cookies验证通过
+2020-01-29 20:18:40.975 [http-nio-8888-exec-7] INFO  com.course.controller.UserManager - getUserInfo获取到的用户数量是1
+2020-01-29 20:18:43.159 [http-nio-8888-exec-8] INFO  com.course.controller.UserManager - cookies验证通过
+2020-01-29 20:18:43.162 [http-nio-8888-exec-8] INFO  com.course.controller.UserManager - 更新数据的条目数为:1
+2020-01-29 20:21:34.363 [http-nio-8888-exec-10] INFO  com.course.controller.UserManager - 查询的结果是1
+2020-01-29 20:21:34.363 [http-nio-8888-exec-10] INFO  com.course.controller.UserManager - 查询的用户是：zhangsan
+2020-01-29 20:21:34.548 [http-nio-8888-exec-2] INFO  com.course.controller.UserManager - 查询的结果是0
+2020-01-29 20:21:34.638 [http-nio-8888-exec-1] INFO  com.course.controller.UserManager - cookies验证通过
+2020-01-29 20:21:34.643 [http-nio-8888-exec-1] INFO  com.course.controller.UserManager - 更新数据的条目数为:1
+2020-01-29 20:21:36.741 [http-nio-8888-exec-3] INFO  com.course.controller.UserManager - cookies验证通过
+2020-01-29 20:21:36.761 [http-nio-8888-exec-3] INFO  com.course.controller.UserManager - 添加用户的数量是：1
+2020-01-29 20:21:38.820 [http-nio-8888-exec-5] INFO  com.course.controller.UserManager - cookies验证通过
+2020-01-29 20:21:38.823 [http-nio-8888-exec-5] INFO  com.course.controller.UserManager - getUserInfo获取到的用户数量是1
+2020-01-29 20:21:40.895 [http-nio-8888-exec-4] INFO  com.course.controller.UserManager - cookies验证通过
+2020-01-29 20:21:40.902 [http-nio-8888-exec-4] INFO  com.course.controller.UserManager - 更新数据的条目数为:1
+2020-01-29 20:23:46.311 [http-nio-8888-exec-7] INFO  com.course.controller.UserManager - 查询的结果是1
+2020-01-29 20:23:46.311 [http-nio-8888-exec-7] INFO  com.course.controller.UserManager - 查询的用户是：zhangsan
+2020-01-29 20:23:46.622 [http-nio-8888-exec-8] INFO  com.course.controller.UserManager - 查询的结果是0
+2020-01-29 20:23:46.720 [http-nio-8888-exec-9] INFO  com.course.controller.UserManager - cookies验证通过
+2020-01-29 20:23:46.727 [http-nio-8888-exec-9] INFO  com.course.controller.UserManager - 更新数据的条目数为:1
+2020-01-29 20:23:48.839 [http-nio-8888-exec-10] INFO  com.course.controller.UserManager - cookies验证通过
+2020-01-29 20:23:49.240 [http-nio-8888-exec-10] INFO  com.course.controller.UserManager - 添加用户的数量是：1
+2020-01-29 20:23:51.316 [http-nio-8888-exec-2] INFO  com.course.controller.UserManager - cookies验证通过
+2020-01-29 20:23:51.319 [http-nio-8888-exec-2] INFO  com.course.controller.UserManager - getUserInfo获取到的用户数量是1
+2020-01-29 20:23:53.380 [http-nio-8888-exec-1] INFO  com.course.controller.UserManager - cookies验证通过
+2020-01-29 20:23:53.385 [http-nio-8888-exec-1] INFO  com.course.controller.UserManager - 更新数据的条目数为:1
+2020-01-29 21:09:27.497 [http-nio-8888-exec-5] INFO  com.course.controller.UserManager - 查询的结果是1
+2020-01-29 21:09:27.498 [http-nio-8888-exec-5] INFO  com.course.controller.UserManager - 查询的用户是：zhangsan
+2020-01-29 21:09:27.611 [http-nio-8888-exec-4] INFO  com.course.controller.UserManager - 查询的结果是0
+2020-01-29 21:09:27.685 [http-nio-8888-exec-6] INFO  com.course.controller.UserManager - cookies验证通过
+2020-01-29 21:09:27.699 [http-nio-8888-exec-6] INFO  com.course.controller.UserManager - 更新数据的条目数为:1
+2020-01-29 21:09:29.943 [http-nio-8888-exec-7] INFO  com.course.controller.UserManager - cookies验证通过
+2020-01-29 21:09:29.952 [http-nio-8888-exec-7] INFO  com.course.controller.UserManager - 添加用户的数量是：1
+2020-01-29 21:09:32.028 [http-nio-8888-exec-8] INFO  com.course.controller.UserManager - cookies验证通过
+2020-01-29 21:09:32.033 [http-nio-8888-exec-8] INFO  com.course.controller.UserManager - getUserInfo获取到的用户数量是1
+2020-01-29 21:09:34.097 [http-nio-8888-exec-9] INFO  com.course.controller.UserManager - cookies验证通过
+2020-01-29 21:09:34.105 [http-nio-8888-exec-9] INFO  com.course.controller.UserManager - 更新数据的条目数为:1
+2020-01-29 21:15:42.648 [http-nio-8888-exec-8] INFO  com.course.controller.UserManager - 查询的结果是1
+2020-01-29 21:15:42.649 [http-nio-8888-exec-8] INFO  com.course.controller.UserManager - 查询的用户是：zhangsan
+2020-01-29 21:15:42.812 [http-nio-8888-exec-9] INFO  com.course.controller.UserManager - 查询的结果是0
+2020-01-29 21:15:42.881 [http-nio-8888-exec-10] INFO  com.course.controller.UserManager - cookies验证通过
+2020-01-29 21:15:46.308 [http-nio-8888-exec-10] INFO  com.course.controller.UserManager - 更新数据的条目数为:1
+2020-01-29 21:15:48.481 [http-nio-8888-exec-1] INFO  com.course.controller.UserManager - cookies验证通过
+2020-01-29 21:15:48.489 [http-nio-8888-exec-1] INFO  com.course.controller.UserManager - 添加用户的数量是：1
+2020-01-29 21:15:50.554 [http-nio-8888-exec-3] INFO  com.course.controller.UserManager - cookies验证通过
+2020-01-29 21:15:50.557 [http-nio-8888-exec-3] INFO  com.course.controller.UserManager - getUserInfo获取到的用户数量是1
+2020-01-29 21:19:56.156 [http-nio-8888-exec-9] INFO  com.course.controller.UserManager - cookies验证通过
+2020-01-29 21:19:56.164 [http-nio-8888-exec-9] INFO  com.course.controller.UserManager - 更新数据的条目数为:1
+2020-01-29 21:23:23.519 [http-nio-8888-exec-1] INFO  com.course.controller.UserManager - 查询的结果是1
+2020-01-29 21:23:23.520 [http-nio-8888-exec-1] INFO  com.course.controller.UserManager - 查询的用户是：zhangsan
+2020-01-29 21:23:23.673 [http-nio-8888-exec-3] INFO  com.course.controller.UserManager - 查询的结果是0
+2020-01-29 21:23:23.743 [http-nio-8888-exec-5] INFO  com.course.controller.UserManager - cookies验证通过
+2020-01-29 21:23:23.752 [http-nio-8888-exec-5] INFO  com.course.controller.UserManager - 更新数据的条目数为:1
+2020-01-29 21:23:25.854 [http-nio-8888-exec-4] INFO  com.course.controller.UserManager - cookies验证通过
+2020-01-29 21:23:25.913 [http-nio-8888-exec-4] INFO  com.course.controller.UserManager - 添加用户的数量是：1
+2020-01-29 21:23:27.989 [http-nio-8888-exec-6] INFO  com.course.controller.UserManager - cookies验证通过
+2020-01-29 21:23:27.994 [http-nio-8888-exec-6] INFO  com.course.controller.UserManager - getUserInfo获取到的用户数量是1
+2020-01-29 21:23:30.102 [http-nio-8888-exec-8] INFO  com.course.controller.UserManager - cookies验证通过
+2020-01-29 21:23:30.107 [http-nio-8888-exec-8] INFO  com.course.controller.UserManager - 更新数据的条目数为:1
